@@ -33,4 +33,4 @@ if __name__=="__main__":
    z2=complex(input("Ingrese un numero complejo 2 (cambie la 'i' por una 'j'):"))
 
    operaciones(z1,z2)
-
+#test
