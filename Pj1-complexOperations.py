@@ -11,6 +11,7 @@ usados anteriormente Ingrese el numero respectivo de la operacions
    5-Conjugado:
    6-Magnitud:
    7-Fase:
+   Ninguna otra opcion es valida mas que las que se encuentran en el menu
 """)
    if x=="1":
       print("z1+z2  =  "+str(z1+z2))
