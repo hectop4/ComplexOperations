@@ -7,7 +7,7 @@ c= complex(input('Ingrese un complejo: Recuerde que de se denotado como a+bj sie
 raiz_in=int(input('Ingrese el numero de la raiz que quiera que quiere obtener del numero complejo (Entero)   '))
 
 raiz=1/(raiz_in)
-print(raiz)
+
 magnitud=abs(c)
 fase=cmath.phase(c)
 r=magnitud**raiz
@@ -21,8 +21,6 @@ for i in range(0,raiz_in,1):
    
 
    resul=complex((r)*(complex(real,img)))
-   print(raiz_in)
-   print(raiz)
-   print(magnitud)
-   print(str(float(1/(4))))
+
+   print(str(resul))
 
